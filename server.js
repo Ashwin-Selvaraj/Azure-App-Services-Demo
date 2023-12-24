@@ -8,5 +8,6 @@ app.listen(port,()=>
 
 app.get('/',(req,res)=>
 {
-    res.status(200).json({message:"Hello "})
+    // res.status(200).json({message:"Hello "});
+    res.send("Hi, welcome to my Application");
 })
